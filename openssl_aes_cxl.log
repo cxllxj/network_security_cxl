@@ -1,0 +1,3 @@
+#openssl enc -aes-128-cbc -e -in hello.tar.gz -out hello.tar.gz.enc -pass pass:12345
+#openssl enc -aes-128-cbc -d -in hello.tar.gz.enc -out hello2.tar.gz -pass pass:12345
+
